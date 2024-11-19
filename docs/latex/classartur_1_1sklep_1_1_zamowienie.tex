@@ -1,0 +1,147 @@
+\doxysection{artur.\+sklep.\+Zamowienie Class Reference}
+\hypertarget{classartur_1_1sklep_1_1_zamowienie}{}\label{classartur_1_1sklep_1_1_zamowienie}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+
+
+Klasa reprezentująca zamówienie z produktem, klientem oraz ilością.  
+
+
+Inheritance diagram for artur.\+sklep.\+Zamowienie\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classartur_1_1sklep_1_1_zamowienie}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries Zamowienie\+Po\+Cenie\+Comparer}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_afa9684de1c12daa949658f61db8d9400}{Zamowienie}} (\mbox{\hyperlink{classartur_1_1sklep_1_1_klient}{Klient}} klient, \mbox{\hyperlink{classartur_1_1sklep_1_1_produkt}{Produkt}} produkt, int ilosc)
+\item 
+\mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie}{Zamowienie}} \mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_ad44536cfa68053eca965345083cee520}{clone}} ()
+\item 
+double \mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_a7c925c803dd70911c5be7e764df615a1}{get\+Cena\+Jednostkowa}} ()
+\item 
+double \mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_a5f5c659d4cd49a0efe18f003c614da13}{get\+Cena}} ()
+\item 
+\mbox{\hyperlink{classartur_1_1sklep_1_1_klient}{Klient}} \mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_a7ef2b58f1273b981317679726d5e144b}{get\+Klient}} ()
+\item 
+\mbox{\hyperlink{classartur_1_1sklep_1_1_produkt}{Produkt}} \mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_ad05c1360529bbe73ea4ad3c1560d62b3}{get\+Produkt}} ()
+\item 
+int \mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_ad341f0da7249ecdd35b6ea3bf2fc22ba}{get\+Ilosc}} ()
+\item 
+void \mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_ab9fe41afc9c94c3d9e8429f4da14ba63}{set\+Ilosc}} (int ilosc)
+\item 
+String \mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie_a16082299da830cc6f7acecabaa1209f3}{to\+String}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentująca zamówienie z produktem, klientem oraz ilością. 
+
+\begin{DoxyVerb}   Klasa ta implementuje interfejs Cloneable, umożliwiając klonowanie
+   zamówienia, oraz zawiera klasę
+   zagnieżdżoną ZamowieniePoCenieComparer, która porównuje zamówienia na
+   podstawie ceny jednostkowej.
+\end{DoxyVerb}
+ 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_afa9684de1c12daa949658f61db8d9400}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!Zamowienie@{Zamowienie}}
+\index{Zamowienie@{Zamowienie}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{Zamowienie()}{Zamowienie()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_afa9684de1c12daa949658f61db8d9400} 
+artur.\+sklep.\+Zamowienie.\+Zamowienie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classartur_1_1sklep_1_1_klient}{Klient}}}]{klient}{, }\item[{\mbox{\hyperlink{classartur_1_1sklep_1_1_produkt}{Produkt}}}]{produkt}{, }\item[{int}]{ilosc}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Konstruktor klasy \doxylink{classartur_1_1sklep_1_1_zamowienie}{Zamowienie}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em klient} & \doxylink{classartur_1_1sklep_1_1_klient}{Klient} składający zamówienie. \\
+\hline
+{\em produkt} & \doxylink{classartur_1_1sklep_1_1_produkt}{Produkt}, który został zamówiony. \\
+\hline
+{\em ilosc} & Ilość zamówionego produktu. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_ad44536cfa68053eca965345083cee520}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!clone@{clone}}
+\index{clone@{clone}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_ad44536cfa68053eca965345083cee520} 
+\mbox{\hyperlink{classartur_1_1sklep_1_1_zamowienie}{Zamowienie}} artur.\+sklep.\+Zamowienie.\+clone (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda do klonowania obiektu \doxylink{classartur_1_1sklep_1_1_zamowienie}{Zamowienie}.
+
+\begin{DoxyReturn}{Returns}
+Nowy obiekt \doxylink{classartur_1_1sklep_1_1_zamowienie}{Zamowienie}, który jest kopią obecnego obiektu. 
+\end{DoxyReturn}
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_a5f5c659d4cd49a0efe18f003c614da13}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!getCena@{getCena}}
+\index{getCena@{getCena}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{getCena()}{getCena()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_a5f5c659d4cd49a0efe18f003c614da13} 
+double artur.\+sklep.\+Zamowienie.\+get\+Cena (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Zwraca pełną cenę zamówienia (ilość \texorpdfstring{$\ast$}{*} cena jednostkowa).
+
+\begin{DoxyReturn}{Returns}
+Cena całkowita zamówienia. 
+\end{DoxyReturn}
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_a7c925c803dd70911c5be7e764df615a1}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!getCenaJednostkowa@{getCenaJednostkowa}}
+\index{getCenaJednostkowa@{getCenaJednostkowa}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{getCenaJednostkowa()}{getCenaJednostkowa()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_a7c925c803dd70911c5be7e764df615a1} 
+double artur.\+sklep.\+Zamowienie.\+get\+Cena\+Jednostkowa (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Zwraca cenę jednostkową produktu w zamówieniu.
+
+\begin{DoxyReturn}{Returns}
+Cena jednostkowa produktu. 
+\end{DoxyReturn}
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_ad341f0da7249ecdd35b6ea3bf2fc22ba}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!getIlosc@{getIlosc}}
+\index{getIlosc@{getIlosc}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{getIlosc()}{getIlosc()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_ad341f0da7249ecdd35b6ea3bf2fc22ba} 
+int artur.\+sklep.\+Zamowienie.\+get\+Ilosc (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_a7ef2b58f1273b981317679726d5e144b}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!getKlient@{getKlient}}
+\index{getKlient@{getKlient}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{getKlient()}{getKlient()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_a7ef2b58f1273b981317679726d5e144b} 
+\mbox{\hyperlink{classartur_1_1sklep_1_1_klient}{Klient}} artur.\+sklep.\+Zamowienie.\+get\+Klient (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_ad05c1360529bbe73ea4ad3c1560d62b3}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!getProdukt@{getProdukt}}
+\index{getProdukt@{getProdukt}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{getProdukt()}{getProdukt()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_ad05c1360529bbe73ea4ad3c1560d62b3} 
+\mbox{\hyperlink{classartur_1_1sklep_1_1_produkt}{Produkt}} artur.\+sklep.\+Zamowienie.\+get\+Produkt (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_ab9fe41afc9c94c3d9e8429f4da14ba63}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!setIlosc@{setIlosc}}
+\index{setIlosc@{setIlosc}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{setIlosc()}{setIlosc()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_ab9fe41afc9c94c3d9e8429f4da14ba63} 
+void artur.\+sklep.\+Zamowienie.\+set\+Ilosc (\begin{DoxyParamCaption}\item[{int}]{ilosc}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Ustawia nową ilość zamówionych produktów.
+
+
+\begin{DoxyParams}{Parameters}
+{\em ilosc} & Nowa ilość produktów w zamówieniu. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classartur_1_1sklep_1_1_zamowienie_a16082299da830cc6f7acecabaa1209f3}\index{artur.sklep.Zamowienie@{artur.sklep.Zamowienie}!toString@{toString}}
+\index{toString@{toString}!artur.sklep.Zamowienie@{artur.sklep.Zamowienie}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily \label{classartur_1_1sklep_1_1_zamowienie_a16082299da830cc6f7acecabaa1209f3} 
+String artur.\+sklep.\+Zamowienie.\+to\+String (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/artur/sklep/\mbox{\hyperlink{_zamowienie_8java}{Zamowienie.\+java}}\end{DoxyCompactItemize}
